@@ -17,7 +17,12 @@ namespace aspdotnet_webapp_techlink_maintenance
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Site", action = "Index", id = UrlParameter.Optional }
-            );
+            ); 
+            routes.MapRoute(
+                 name: "PCCC",
+                 url: "{controller}/{action}/{id}",
+                 defaults: new { controller = "Site", action = "PCCC", id = UrlParameter.Optional }
+             );
         }
     }
 }

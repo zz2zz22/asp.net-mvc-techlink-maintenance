@@ -1,6 +1,6 @@
 ﻿header {
     width: 100vw;
-    height: 25vh;
+    height: 15vh;
     background: url("../images/bg1.png");
     background-position: center;
     background-size: cover;
@@ -128,9 +128,9 @@
 }
 
     .header-text h1 {
-        font-size: 40px;
+        font-size: 25px;
         color: var(--color1);
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
 .content-menu {
@@ -151,7 +151,7 @@
     }
 
     .content-menu-item p {
-        font-size: calc(70% + 4px);
+        font-size: calc(70% + 2px);
     }
 
     .content-menu-item img {
