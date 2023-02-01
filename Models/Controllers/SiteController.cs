@@ -13,12 +13,16 @@ namespace aspdotnet_webapp_techlink_maintenance.Controllers
         // GET: Site
         public ActionResult Index()
         {
-            ViewBag.SoThietBi = db.device_Infos.Count();
+            //ViewBag.SoThietBi = db.device_Infos.Count();
             return View();
         }
         public ActionResult PCCC()
         {
             return View("_PCCC");
+        }
+        public ActionResult PCCCScan()
+        {
+            return View("_PCCCScan");
         }
     }
 }

@@ -23,6 +23,11 @@ namespace aspdotnet_webapp_techlink_maintenance
                  url: "{controller}/{action}/{id}",
                  defaults: new { controller = "Site", action = "PCCC", id = UrlParameter.Optional }
              );
+            routes.MapRoute(
+                 name: "PCCCScan",
+                 url: "{controller}/{action}/{id}",
+                 defaults: new { controller = "Site", action = "PCCCScan", id = UrlParameter.Optional }
+             );
         }
     }
 }
